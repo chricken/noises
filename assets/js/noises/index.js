@@ -5,6 +5,9 @@ import simplex from './simplex.js';
 import fbm from './fbm.js';
 import voronoi from './voronoi.js';
 import musgrave from './musgrave.js';
+import gradient from './gradient.js';
+import value from './value.js';
+import spot from './spot.js';
 
 const noises = {
     perlin,
@@ -12,6 +15,9 @@ const noises = {
     fbm,
     voronoi,
     musgrave,
+    gradient,
+    value,
+    spot,
     draw({
              type = 'perlin',
              canvas = document.createElement('canvas'),
