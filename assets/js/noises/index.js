@@ -8,6 +8,14 @@ import musgrave from './musgrave.js';
 import gradient from './gradient.js';
 import value from './value.js';
 import spot from './spot.js';
+import marble from './marble.js';
+import cloud from './cloud.js';
+import brick from './brick.js';
+import gabor from './gabor.js';
+import sparseconvolution from './sparseconvolution.js';
+import domainwarping from './domainwarping.js';
+import sine from './sine.js';
+import wavelayer from './wavelayer.js';
 
 const noises = {
     perlin,
@@ -18,12 +26,20 @@ const noises = {
     gradient,
     value,
     spot,
+    marble,
+    cloud,
+    brick,
+    gabor,
+    sparseconvolution,
+    domainwarping,
+    sine,
+    wavelayer,
     draw({
              type = 'perlin',
              canvas = document.createElement('canvas'),
              width = null,
              height = null,
-             scale = 10.0,
+             scale = 20.0,
              variant = null,
          }) {
         if (width) canvas.width = width;
