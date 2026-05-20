@@ -1,0 +1,8 @@
+# IDE
+.idea/
+
+# Tools
+.proxyai/
+
+# Generated content
+screenshots/

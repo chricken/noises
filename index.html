@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Noises</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <script src="./assets/js/index.js" type="module"></script>
+</head>
+
+<body>
+<header>
+    <h1>Noises</h1>
+</header>
+<main>
+    <canvas></canvas>
+</main>
+<div id="ui">
+    <div>
+        <button id="btnSave">Save Image</button>
+    </div>
+    <div id="noiseButtons">
+        <button id="btnPerlin" value="perlin">Perlin</button>
+        <button id="btnSimplex" value="simplex">Simplex</button>
+        <button id="btnFBM" value="fbm">fBm</button>
+        <button id="btnVoronoi" value="voronoi"> Voronoi</button>
+        <button id="btnMusgraveRidged" value="musgrave" data-variant="ridged">Musgrave Ridged</button>
+        <button id="btnMusgraveHybrid" value="musgrave" data-variant="hybrid">Musgrave Hybrid</button>
+        <button id="btnGradient" value="gradient">Gradient</button>
+        <button id="btnValue" value="value">Value</button>
+        <button id="btnSpot" value="spot">Spot</button>
+        <button id="btnMarble" value="marble">Marble</button>
+        <button id="btnCloud" value="cloud">Cloud</button>
+        <button id="btnBrick" value="brick">Brick</button>
+        <button id="btnGabor" value="gabor">Gabor</button>
+        <button id="btnDomainWarping" value="domainwarping">Domain Warping</button>
+        <button id="btnSparseConvolution" value="sparseconvolution">Sparse Convolution</button>
+    </div>
+</div>
+</body>
+</html>
