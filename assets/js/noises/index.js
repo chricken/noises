@@ -16,6 +16,9 @@ import sparseconvolution from './sparseconvolution.js';
 import domainwarping from './domainwarping.js';
 import sine from './sine.js';
 import wavelayer from './wavelayer.js';
+import ridgedmultifractal from './ridgedmultifractal.js';
+import flow from './flow.js';
+import vascular from './vascular.js';
 
 const noises = {
     perlin,
@@ -34,6 +37,9 @@ const noises = {
     domainwarping,
     sine,
     wavelayer,
+    ridgedmultifractal,
+    flow,
+    vascular,
     draw({
              type = 'perlin',
              canvas = document.createElement('canvas'),
